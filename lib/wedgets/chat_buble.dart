@@ -8,7 +8,6 @@ class chatBuble extends StatelessWidget {
   const chatBuble({Key? key,required this.me}) : super(key: key);
 
   final Message me; //هتستقبل مي
-
   @override
   Widget build(BuildContext context) {
     return Align(
